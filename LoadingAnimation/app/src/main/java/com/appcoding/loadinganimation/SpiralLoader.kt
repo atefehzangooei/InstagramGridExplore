@@ -31,10 +31,7 @@ fun SpiralLoader() {
     )
 
     Canvas(modifier = Modifier.size(100.dp)) {
-        val paint = Paint().apply {
-            // color = Color.Magenta
-            strokeWidth = 4f
-        }
+
         val center = Offset(50f, 50f)
         val radius = 40f
 
